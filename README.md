@@ -1,4 +1,4 @@
-# Code Smells - Python
+# 💩 Code Smells - Python
 
 This repository contains examples and explanations of common code smells in Python. Code smells are indicators of potential problems or areas of improvement in code quality and design. By recognizing and addressing code smells, developers can create cleaner, more maintainable, and efficient code.
 
@@ -17,7 +17,7 @@ Code smells are specific patterns or structures in code that indicate potential 
 
 This repository focuses on code smells specific to Python programming. Each code smell example includes an explanation of the smell, its potential impact, and suggestions for refactoring or improving the code.
 
-## Code Smells
+## 💩 Code Smells
 
 The following code smells are covered in this repository:
 
