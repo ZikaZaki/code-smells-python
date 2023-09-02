@@ -7,7 +7,7 @@ This repository contains examples and explanations of common code smells in Pyth
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Code Smells](#code-smells)
+- [Code Smells](#-code-smells)
 - [Contributing](#contributing)
 - [License](#license)
 
