@@ -29,7 +29,7 @@ The following code smells are covered in this repository:
 8. **Primitive Obsession**: Overuse of primitive data types instead of creating dedicated classes or structures.
 9. **Long Parameter List**: Methods or functions that require a large number of parameters, which can make the code harder to understand and maintain.
 
-Each code smell will have a dedicated folder containing a code example, an explanation of the smell, and suggestions for refactoring or improving the code. The files that start with "before" contain the original code with code smells, while the files that start with "after" contain the same code but refactored to reduce code smells.
+Each code smell will have a dedicated folder containing a code example, an explanation of the smell, and suggestions for refactoring or improving the code. The files that start with `before` contain the original code with code smells, while the files that start with `after` contain the same code but refactored to reduce code smells.
 
 ## Contributing
 
