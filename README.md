@@ -2,16 +2,15 @@
 
 This repository contains examples and explanations of common code smells in Python. Code smells are indicators of potential problems or areas of improvement in code quality and design. By recognizing and addressing code smells, developers can create cleaner, more maintainable, and efficient code.
 
-:exclamation: **NOTE:** Each code smell will have a dedicated folder containing a code example, an explanation of the smell, and suggestions for refactoring or improving the code. The files that start with `before` contain the original code with code smells, while the files that start with `after` contain the same code but refactored to reduce code smells.
-
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#-introduction)
 - [Code Smells](#-code-smells)
-- [Contributing](#contributing)
-- [License](#license)
+- [How to Explore This Repository](#-how-to-explore-this-repository).
+- [Contributing](#-contributing)
+- [License](#-license)
 
-## Introduction
+## 🧠 Introduction
 
 Code smells are specific patterns or structures in code that indicate potential issues or areas for improvement. They are not bugs or errors but rather indications that the code could be refactored or redesigned for better readability, performance, or maintainability.
 
@@ -31,11 +30,14 @@ The following code smells are covered in this repository:
 8. **Primitive Obsession**: Overuse of primitive data types instead of creating dedicated classes or structures.
 9. **Long Parameter List**: Methods or functions that require a large number of parameters, which can make the code harder to understand and maintain.
 
-## Contributing
+## 🤯 How to explore this repository
+Each code smell will have a dedicated folder containing a code example, an explanation of the smell, and suggestions for refactoring or improving the code. The files that start with `before` contain the original code with code smells, while the files that start with `after` contain the same code but refactored to reduce code smells.
+
+## 👌 Contributing
 
 Contributions to this repository are welcome! If you have additional code smells examples, improvements, or suggestions, feel free to submit a pull request. Please ensure that your contributions align with the existing format and guidelines.
 
-## License
+## 🤝 License
 
 This repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code examples for both personal and commercial purposes.
 
