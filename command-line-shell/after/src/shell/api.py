@@ -1,6 +1,5 @@
 from .algorithms import DECODING_ALGORITHMS, ENCODING_ALGORITHMS, HASHING_ALGORITHMS
 
-
 def encoding_algos() -> list[str]:
     return list(ENCODING_ALGORITHMS.keys())
 
