@@ -154,10 +154,6 @@ class Interface:
 				print(self.Commands[command.CMD](*command.argv))
 			else:
 				print(self.Commands[command.CMD]())
-		
-
-
-
 
 	def run(self) -> None:
 		print()
