@@ -170,22 +170,5 @@ def main():
 	Interface_ = Interface()
 	Interface_.run()
 
-
 if __name__ == '__main__':
 	main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
