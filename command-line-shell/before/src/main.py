@@ -120,7 +120,6 @@ class Interface:
 			for i in CONFIG[self.Tool].keys():
 				print("  ", i)
 
-
 	def SetText(self, Text = None): 
 		self.text = Text
 
