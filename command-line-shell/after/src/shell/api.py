@@ -1,3 +1,4 @@
+from __future__ import annotations
 from .algorithms import DECODING_ALGORITHMS, ENCODING_ALGORITHMS, HASHING_ALGORITHMS
 
 def encoding_algos() -> list[str]:

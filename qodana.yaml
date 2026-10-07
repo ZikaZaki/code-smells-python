@@ -1,0 +1,19 @@
+name: Qodana
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  qodana:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Qodana Scan
+        uses: JetBrains/qodana-action@v2026.2
+        env:
+          QODANA_ENDPOINT: "https://web.cloud.sssa-qa.aws.intellij.net"

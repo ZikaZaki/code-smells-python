@@ -1,5 +1,4 @@
-
-
+from __future__ import annotations
 
 ENCODE, DECODE = 0, 1
 

@@ -1,0 +1,16 @@
+qodana:
+  image:
+    name: jetbrains/qodana-python:2026.1
+    entrypoint: [""]
+  cache:
+    - key: qodana-2026.1-$CI_DEFAULT_BRANCH-$CI_COMMIT_REF_SLUG
+      fallback_keys:
+        - qodana-2026.1-$CI_DEFAULT_BRANCH-
+        - qodana-2026.1-
+      paths:
+        - .qodana/cache
+  variables:
+    QODANA_TOKEN: $QODANA_TOKEN
+    QODANA_ENDPOINT: "https://web.cloud.sssa-stgn.aws.intellij.net"
+  script:
+    - qodana --cache-dir=$CI_PROJECT_DIR/.qodana/cache
